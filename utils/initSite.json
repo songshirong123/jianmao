@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "key": "mahuazy",
+    "name": "麻花资源",
+    "api": "https://www.mhapi123.com/inc/api.php",
+    "download": "",
+    "group": "默认",
+    "isActive": true,
+    "status": "可用"
+  },
+ 
+  {
+    "id": 2,
+    "key": "zuidazy",
+    "name": "最大资源网",
+    "api": "http://www.zdziyuan.com/inc/api.php",
+    "download": "http://www.zdziyuan.com/inc/apidown.php",
+    "group": "默认",
+    "isActive": true,
+    "status": "可用"
+  }
+  
+]

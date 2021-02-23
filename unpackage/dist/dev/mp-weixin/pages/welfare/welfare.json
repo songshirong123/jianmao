@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "福利",
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "u-top-tips": "/node-modules/uview-ui/components/u-top-tips/u-top-tips",
+    "u-mask": "/node-modules/uview-ui/components/u-mask/u-mask",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "app-update": "/components/app-update/app-update"
+  }
+}

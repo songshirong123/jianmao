@@ -1,0 +1,21 @@
+{
+  "name": "简猫",
+  "version": "0.1.1",
+  "description": "简猫 Android by Uni-app",
+  "main": "main.js",
+  "dependencies": {
+    "fast-xml-parser": "^3.17.4",
+    "uni-ajax": "^2.1.8",
+    "uview-ui": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JM Player",
+    "jm"
+  ],
+  "author": "songshiyun",
+  "license": "MIT"
+}

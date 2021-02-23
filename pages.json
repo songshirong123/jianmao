@@ -1,0 +1,184 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+	  {
+	    "path": "pages/vip/index",
+	    "style": {
+	      "navigationBarTitleText": "首页"
+	    }
+	  },
+    {
+      "path": "pages/film/film",
+      "style": {
+        "navigationBarTitleText": "电影"
+      }
+    },
+    {
+      "path": "pages/star/star",
+      "style": {
+        "navigationBarTitleText": "收藏"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "播放记录"
+      }
+    },
+    {
+      "path": "pages/site/site",
+      "style": {
+        "navigationBarTitleText": "源管理"
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/play/play",
+      "style": {
+        "navigationBarTitleText": "播放"
+      }
+    },
+	{
+	  "path": "pages/play/webplay",
+	  "style": {
+		 "titleNView": true ,//禁用原生导航栏
+	    "navigationBarTitleText": "播放"
+	  }
+	  },
+	 
+	  {
+	    "path": "pages/vip/tengxun",
+	    "style": {
+	      "navigationBarTitleText": "腾讯视频"
+	    }
+	  },
+	  {
+	    "path": "pages/vip/bilibili",
+	    "style": {
+	      "navigationBarTitleText": "哔哩哔哩动画"
+	    }
+	  },
+	  {
+	    "path": "pages/vip/qiyi",
+	    "style": {
+	      "navigationBarTitleText": "爱奇艺"
+	    }
+	  },
+	  {
+	    "path": "pages/vip/youku",
+	    "style": {
+	      "navigationBarTitleText": "优酷视频"
+	    }
+	},
+	{
+	    "path": "pages/news/news",
+	    "style": {
+	      "navigationBarTitleText": "新闻"
+	    }
+	},
+	{
+	    "path": "pages/type/dashang",
+	    "style": {
+	      "navigationBarTitleText": "打赏"
+	    }
+	},
+	{
+	    "path": "pages/type/jiaoliu",
+	    "style": {
+	      "navigationBarTitleText": "交流"
+	    }
+	},
+	{
+	    "path": "pages/welfare/welfare",
+	    "style": {
+	      "navigationBarTitleText": "福利"
+	    }
+	},
+	{
+	    "path": "pages/welfare/index",
+	    "style": {
+	      "navigationBarTitleText": "福利"
+	    }
+	},
+	{
+	    "path": "pages/welfare/mp3",
+	    "style": {
+	      "navigationBarTitleText": "音乐"
+	    }
+	},
+	{
+	    "path": "pages/welfare/more",
+	    "style": {
+	      "navigationBarTitleText": "工具"
+	    }
+	},
+	{
+	    "path": "pages/login/login",
+	    "style": {
+	      "navigationBarTitleText": "验证",
+		   "app-plus":{
+			   "titleNView":{
+				   "autoBackButton":false
+			   }
+		   }
+	    }
+	}
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "简猫影视",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+		{
+		  "pagePath": "pages/vip/index",
+		  "iconPath": "static/images/star1.png",
+		  "selectedIconPath": "static/images/star2.png",
+		  "text": "首页"
+		},
+      {
+        "pagePath": "pages/film/film",
+        "iconPath": "static/images/home1.png",
+        "selectedIconPath": "static/images/home2.png",
+        "text": "电影"
+      },
+	  {
+	    "pagePath": "pages/news/news",
+	    "iconPath": "static/images/history1.png",
+	    "selectedIconPath": "static/images/history2.png",
+	    "text": "新闻"
+	  },
+	  {
+	    "pagePath": "pages/welfare/index",
+	    "iconPath": "static/images/recommend1.png",
+	    "selectedIconPath": "static/images/recommend2.png",
+	    "text": "福利"
+	  },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/images/me1.png",
+        "selectedIconPath": "static/images/me2.png",
+        "text": "我"
+      }
+    ]
+  }
+}

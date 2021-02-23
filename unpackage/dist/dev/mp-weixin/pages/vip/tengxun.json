@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "腾讯视频",
+  "usingComponents": {
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-radio-group": "/node-modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/node-modules/uview-ui/components/u-radio/u-radio",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-mask": "/node-modules/uview-ui/components/u-mask/u-mask",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading"
+  }
+}
